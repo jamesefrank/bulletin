@@ -1,5 +1,3 @@
-AddType text/cache-manifest .appcache
-
 # 480 weeks
 <filesMatch ".(js|css|eot|svg|ttf|woff)$">
 Header set Cache-Control "max-age=290304000, public"
