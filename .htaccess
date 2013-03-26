@@ -1,1 +1,11 @@
 AddType text/cache-manifest .appcache
+
+# 480 weeks
+<filesMatch ".(js|css|eot|svg|ttf|woff)$">
+Header set Cache-Control "max-age=290304000, public"
+</filesMatch>
+ 
+# 2 DAYS
+<filesMatch ".(html|htm)$">
+Header set Cache-Control "max-age=172800, public, must-revalidate"
+</filesMatch>
