@@ -8,18 +8,18 @@
 		<meta http-equiv="cache-control" content="public">
 		<meta name="HandheldFriendly" content="True" />
 		<meta name="MobileOptimized" content="320" />
-		<meta name="viewport" content="width=device-width, initial scale=1, maximum-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
 		
 		<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css"> 
 		<style type="text/css">
-			body {color: #fff; background: #000; font-size: 1.4em; padding: 4%;}
+			body {color: #fff; background: #000; font-size: 1.2em; padding: 4%;}
 			a {color: #ccc;}
 			h1, h2 {color: #fff; font-family: "GreatVibesRegular", serif;}
 			h1 {font-size: 4em; line-height: .8em;}
 			h1 span {font-size: .4em; display: block;}
 			h1 strong {line-height: 1em;}
 			h2 {font-size: 2em;}
-			h3, h4, h5, h6 {color: #b6e4ee; font-family: 'OpenSansCondensedLight', sans-serif; font-weight: normal; text-transform: uppercase; letter-spacing: .1em;}
+			h3, h4, h5, h6 {color: #FFD8A2; font-family: 'OpenSansCondensedLight', sans-serif; font-weight: normal; text-transform: uppercase; letter-spacing: .1em;}
 			p {clear: both; margin-bottom: 10px; font-family: "Georgia", serif; line-height: 1.6em; color: #ccc;}
 			.presenter {font-style: italic; text-align: right; display: block;}
 			.note {font-style: italic; font-size: smaller;}
@@ -31,13 +31,18 @@
 			.lyrics p {color: #fff;}
 			.lyrics.nosinging p {color: #ccc;}
 			.prayer {margin-bottom: 10px;}
-			#toplink {position: fixed; left: 0; top: 0; right: 0; background-color: #b6e4ee; text-align: center; padding: 2px 0 0px 0; display: none; color: black; text-decoration: none; font-family: "OpenSansCondensedBold", sans-serif;}
+			#toplink {position: fixed; left: 0; top: 0; right: 0; background-color: #FFD8A2; text-align: center; padding: 2px 0 0px 0; display: none; color: black; text-decoration: none; font-family: "OpenSansCondensedBold", sans-serif;}
+			#cover {background-image: url("cover.jpg"); height: 406px; width: 100%; background-repeat: no-repeat; background-position: center; opacity: 0.2; position: absolute; top: 0; z-index: -1;}
 		</style>
 		
 	</head>
 	<body onload="window.top.scrollTo(0, 1);">
 	
 		<h1><span>The </span><strong>Easter Vigil</strong></h1>
+		
+		
+		<div id="cover"></div>
+		
 		<h2 id="contents">Contents</h2>
 		<p>
 			<a href="#creation">The Story of Creation</a><br/>
@@ -51,7 +56,7 @@
 			<a href="#jesus">The Death & Burial of Jesus</a><br/>
 			<a href="#light">The Service of Light</a><br/>
 			<a href="#resurrection">The Resurrection of Our Lord</a><br/>
-			<a href="#affirmation">The Affirmation of Our Faith</a><br/>
+			<a href="#affirmation">The Affirmation of Faith</a><br/>
 			<a href="#table">The Lord's Table</a>
 			
 		</p>
@@ -59,34 +64,20 @@
 		
 		<a href="#contents" id="toplink">Table of Contents</a>
 		
-		<p>* Congregational responses are in bold.</p>
-		<h3>Prelude</h3>
+		<p>* Please stand where indicated by an asterisk.
+		<span class="response">Congregational responses are in bold.</span></p>
 		<h3>Welcome</h3>
 		
-		<h3>Introit: Creator of the Stars of Night<span class="presenter">Dana Litke</span></h3>
+		<h3>Choral Introit: Of the Father's Love Begotten</h3>
 		
-		<div class="lyrics nosinging">
-			<p>Creator of the stars of night, your people's everlasting light,<br/>
-			O Christ, Redeemer of us all, we pray you hear us when we call.</p>
-			<p>In sorrow that the ancient curse should doom to death a universe,<br/>
-			You came down, O Savior, to set free your own in glorious liberty!</p>
-			<p>When this old world drew on toward night, you came, but not in splendor bright,<br/>
-			Not as a great monarch, but the child of Mary, blameless mother mild.</p>
-			<p>Come in thy holy might, we pray; redeem us for that boundless day<br/>
-			And from every power of darkness, when thou judgest all the sons of men.</p>
-			<p>To God the Father, God the Son, and God the Spirit, Three in One,<br/>
-			Laud and honor, might and glory be from age to age eternally!</p>
-		</div>
-		
-		<h3>Collect for Evening</h3>
+		<h3>Collect for Evening *</h3>
 		
 		<div class="prayer">
 			<p>The Lord be with you<br/>
 			<span class="response">And also with you.</span>
 			Let us pray<br/>
-			<span class="response">Lighten our darkness, O Lord, and by your great mercy defend us from all perils and dangers  of this night; for the love of your only Son our Savior Jesus Christ.  Amen.</span></p>
+			<span class="response">Lighten our darkness, O Lord, and by your great mercy defend us from all perils and dangers of this night; for the love of your only Son our Savior Jesus Christ. Amen.</span></p>
 		</div>
-		<p>On this night, our Lord Jesus Christ passed over from death to life. The Church invites her members, dispersed throughout the world, to gather in vigil and prayer, remembering God's great mercy. This is the Passover of the Lord, in which through word and sacrament we share in Jesus' victory over death.</p>
 		
 		<h2 id="creation">The Story of Creation</h2>
 		
@@ -97,35 +88,44 @@
 		<span class="response">and by the breath of his mouth all their host.</span>
 		</p>
 		
-		<h3>Hymn: Psalm 19 &#8211; The Heavens Declare Thy Glory</h3>
+		<h3>Hymn: Holy, Holy, Holy *</h3>
 		
 		<div class="lyrics">
-			<p>1. The heavens declare Thy glory,<br/>
-			The firmament Thy power;<br/>
-			Day unto day their story<br/>
-			Repeats from hour to hour;<br/>
-			Night unto night replying,<br/>
-			Proclaims in every land,<br/>
-			O Lord, with voice undying,<br/>
-			The wonders of Thy hand.</p>
+			<p>Holy, holy, holy! <br/>
+			Lord God Almighty! <br/>
+			Early in the morning <br/>
+			Our song shall rise to Thee; <br/>
+			Holy, holy, holy, <br/>
+			Merciful and mighty! <br/>
+			God in three persons, <br/>
+			Blessed Trinity! </p>
+			 
+			<p>Holy, holy, holy! <br/>
+			All the saints adore Thee,<br/> 
+			Casting down their golden <br/>
+			Crowns around the glassy sea; <br/>
+			Cherubim and seraphim <br/>
+			Falling down before Thee, <br/>
+			Who wert, and art, <br/>
+			And evermore shalt be. </p>
+			 
+			<p>Holy, holy, holy! <br/>
+			Though the darkness hide Thee <br/>
+			Though the eye of sinful man <br/>
+			Thy glory may not see; <br/>
+			Only Thou art holy; <br/>
+			There is none beside Thee, <br/>
+			Perfect in pow’r, <br/>
+			In love, and purity. </p>
 			
-			<p>2. The sun with royal splendor<br/>
-			Goes forth to chant Thy praise;<br/>
-			And moonbeams soft and tender<br/>
-			Their gentler anthem raise;<br/>
-			O'er every tribe and nation<br/>
-			Their music is out poured,<br/>
-			The song of all creation,<br/>
-			To Thee, creation's Lord.</p>
-			
-			<p>3. All heaven on high rejoices<br/>
-			To do its Maker's will;<br/>
-			The stars with solemn voices<br/>
-			Resound Thy praises still;<br/>
-			So all that is within me,<br/>
-			With all creation, raise<br/>
-			One voice of adoration<br/>
-			To our Creator's praise!</p>
+			<p>Holy, holy, holy! <br/>
+			Lord God Almighty! <br/>
+			All Thy works shall praise Thy name, <br/>
+			In earth and sky, and sea; <br/>
+			Holy, holy, holy; <br/>
+			Merciful and mighty! <br/>
+			God in three persons, <br/>
+			Blessed Trinity</p>
 		</div>
 		
 		<h2 id="flood">The Story of the Flood</h2>
@@ -141,28 +141,36 @@
 		<span class="response">mightier than the waves of the sea,</span>
 		<span class="response">the Lord on high is mighty!</span></p>
 		
-		<h3>Choral Hymn: Now the Green Blade Riseth</h3>
+		<h3>Hymn: God, To Us Show Mercy *</h3>
 		
-		<div class="lyrics nosinging">
-			<p>Now the green blade riseth from the buried grain,<br/>
-			Wheat that in dark earth many days has lain;<br/>
-			Love lives again, that with the dead has been:<br/>
-			Love is come again like wheat that springeth green.</p>
+		<div class="lyrics">
+			<p>O God, to us show mercy <br/>
+			And bless us in your grace;<br/>
+			Cause now to shine upon us <br/>
+			The brightness of your face;<br/>
+			That so your way most holy <br/>
+			On earth may soon be known,<br/>
+			And unto every people <br/>
+			Your saving grace be shown.</p>
 			
-			<p>In the grave they laid him, love whom hate had slain,<br/>
-			Thinking that never he would wake again,<br/>
-			Laid in the earth like grain that sleeps unseen:<br/>
-			Love is come again like wheat that springeth green.</p>
+			<p>O God, let all men praise you, <br/>
+			Let all the nations sing;<br/>
+			In every land let praises<br/>
+			And songs of gladness ring; <br/>
+			For you shall judge the people<br/>
+			In truth and righteousness, <br/>
+			And you shall lead the nations<br/>
+			Your justice to confess.</p>
 			
-			<p>Forth he came at Easter, like the risen grain,<br/>
-			He that for three days in the grave had lain,<br/>
-			Quick from the dead my risen Lord is seen:<br/>
-			Love is come again like wheat that springeth green.</p>
-			
-			<p>When our hearts are wintry, grieving, or in pain,<br/>
-			Thy touch can call us back to life again,<br/>
-			Fields of our hearts that dead and bare have been:<br/>
-			Love is come again like wheat that springeth green.</p>
+			<p>Let all the peoples praise you, <br/>
+			All tongues and tribes should sing,<br/>
+			For earth in rich abundance <br/>
+			To us her fruit shall bring.<br/>
+			The Lord our God shall bless us; <br/>
+			Let all the earth maintain <br/>
+			The praise it owes its Maker,<br/>
+			The reverence due His name. </p>
+
 		</div>
 		
 		<h3>Collect</h3>
@@ -176,7 +184,7 @@
 			through Jesus Christ who lives and reigns with you<br/>
 			and the Holy Spirit, one God, now and forever. Amen.</p>
 		</div>
-		
+
 		<h2 id="abram">The Call of Abram</h2>
 		
 		<h3>Old Testament Lesson <span class="presenter">Genesis 15:1-18</span></h3>
@@ -188,31 +196,31 @@
 		<span class="response">that your way may be known on earth,</span>
 		<span class="response">your saving power among all nations.</span></p>
 		
-		<h3>Hymn: O Come, O Come Emmanuel</h3>
+		<h3>Hymn: O Come, O Come Emmanuel *</h3>
 		
 		<div class="lyrics">
-			<p>1. O come, O come, Emmanuel<br/>
+			<p>O come, O come, Emmanuel<br/>
 			And ransom captive Israel<br/>
 			That mourns in lonely exile here<br/>
 			Until the Son of God appear<br/>
 			Rejoice! Rejoice! Emmanuel<br/>
 			Shall come to thee, O Israel.</p>
 			
-			<p>2. O come, O come, Thou Lord of might,<br/>
+			<p>O come, O come, Thou Lord of might,<br/>
 			Who to Thy tribes, on Sinai&#8217;s height,<br/>
 			In ancient times once gave the Law,<br/>
 			In cloud, and majesty and awe.<br/>
 			Rejoice! Rejoice! Emmanuel<br/>
 			Shall come to thee, O Israel.</p>
 			
-			<p>3. O come, Thou Rod of Jesse, free<br/>
+			<p>O come, Thou Rod of Jesse, free<br/>
 			Thine own from Satan&#8217;s tyranny<br/>
 			From depths of Hell Thy people save<br/>
 			And give them victory o&#8217;er the grave<br/>
 			Rejoice! Rejoice! Emmanuel<br/>
 			Shall come to thee, O Israel.</p>
 			
-			<p>4. O come, Thou Day-Spring, come and cheer<br/>
+			<p>O come, Thou Day-Spring, come and cheer<br/>
 			Our spirits by Thine advent here<br/>
 			Disperse the gloomy clouds of night<br/>
 			And death&#8217;s dark shadows put to flight.<br/>
@@ -229,40 +237,39 @@
 		<p class="prayer"><span class="presenter">Exodus 15:21</span>Sing to the Lord, for he has triumphed gloriously;<br/>
 		<span class="response">the horse and his rider he has thrown into the sea.</span></p>
 		
-		<h3>Hymn: Isaiah 43</h3>
+		<h3>Hymn: Holy Spirit Come *</h3>
 		
 		<div class="lyrics">
-			<p>1. When you pass through the waters,<br/>
-			I will be with you,<br/>
-			And the waves will not<br/>
-			Overcome you.<br/>
-			Do not fear,<br/>
-			For I have redeemed you,<br/>
-			I have called you by name,<br/>
-			You are Mine.</p>
+			<p>When your people were bound in oppression<br/>
+			And your children were slaves in the land<br/>
+			When they cried to their Father in anguish<br/>
+			You came with salvation in hand</p>
 			
-			<p>For I am the Lord your God (I am the Lord your God),<br/>
-			I am the Lord your God (I am)<br/>
-			The Holy One of Israel<br/>
-			Your Savior<br/>
-			For I am the Lord your God (I am the Lord your God),<br/>
-			I am the Lord your God (I am)<br/>
-			The Holy One of Israel<br/>
-			Your Savior</p>
+			<p><em>Holy Spirit, Holy Spirit<br/>
+			Will you come and deliver again<br/>
+			Holy Spirit, Holy Spirit,<br/>
+			Will you come and give life again</em></p>
 			
-			<p>I am the Lord (do not fear)<br/>
-			I am the Lord (do not fear)<br/>
-			I am the Lord (do not fear)<br/>
-			I am the Lord (do not fear)</p>
+			<p>In the pillar of clouds you led them<br/>
+			Through a wasteland of desert by night<br/>
+			When your children cried out in their hunger<br/>
+			You opened the sky to give life</p>
 			
-			<p>2. When you walk through the fire<br/>
-			You'll not be burned,<br/>
-			And the flames will not<br/>
-			Consume you.<br/>
-			Do not fear,<br/>
-			For I have redeemed you,<br/>
-			I have called you by name,<br/>
-			You are Mine.</p>
+			<p>When the prophets of Baal gathered round him<br/>
+			And Elijah called to you alone<br/>
+			You did not leave him helpless to wonder<br/>
+			You sent fire to make yourself known</p>
+			
+			<p>In the dark of the tomb he was buried<br/>
+			A Savior whose followers fled<br/>
+			But their sin and their doubt<br/>
+			could not speak a sound<br/>
+			As loud as His triumph over death!</p>
+			
+			<p>Age to age you have answered your people<br/>
+			With awesome displays of your might<br/>
+			Now we call on the same Holy Spirit<br/>
+			Give power to be salt and light</p>
 		</div>
 		
 		<h2 id="failures">The Failures of Israel</h2>
@@ -421,18 +428,33 @@
 		<span class="response">Our God is a God of salvation,</span>
 		<span class="response">and to God, the Lord, belong deliverances from death.</span></p>
 		
-		<h3>Hymn: Spirit of the Living God</h3>
+		<h3>Hymn: Pass Me Not</h3>
 		
 		<div class="lyrics">
-			<p>Spirit of the Living God<br/>
-			Fall fresh on me<br/>
-			Spirit of the Living God<br/>
-			Fall fresh on me</p>
+			<p>Pass me not, O gentle Savior, <br/>
+			Hear my humble cry; <br/>
+			While on others thou art calling, <br/>
+			Do not pass me by.</p>
 			
-			<p>Melt me, mold me<br/>
-			Fill me, use me<br/>
-			Spirit of the Living God<br/>
-			Fall fresh on me</p>
+			<p><em>Savior, Savior, <br/>
+			Hear my humble cry; <br/>
+			While on others thou art calling, <br/>
+			Do not pass me by.</em></p>
+			
+			<p>Let me at thy throne of mercy <br/>
+			Find a sweet relief, <br/>
+			Kneeling there in deep contrition; <br/>
+			Help my unbelief. </p>
+			
+			<p>Trusting only in thy merit, <br/>
+			Would I seek thy face; <br/>
+			Heal my wounded, broken spirit, <br/>
+			Save me by thy grace. </p>
+			
+			<p>Thou the spring of all my comfort,<br/> 
+			More than life to me, <br/>
+			Whom have I on earth beside thee? <br/>
+			Whom in heaven but thee?</p>
 		</div>
 				
 		<h2 id="son">The Appearing of God's Son</h2>
@@ -465,49 +487,29 @@
 		<span class="response">He will take pity on the weak and the needy,</span>
 		<span class="response">And save the needy from death.</span></p>
 		
-		<h3>Hymn: Dawning Light of Our Salvation</h3>
+		<h3>Hymn: Lift Up Your Heads, Ye Mighty Gates *</h3>
 		
 		<div class="lyrics">
 		
-			<p>1. Long in darkness Israel wandered;<br/>	
-			Long in mortal shadows, we<br/>	
-			Walked in bondage and self-pity,<br/>	
-			Trod in paths of sin and grief.<br/>	
-			In the prophets' words He told us,<br/>	
-			Long the God of Israel spoke;<br/>	
-			He alone in strength would save us<br/>	
-			From the hands of all our foes.</p>
+			<p>Lift up your heads, ye mighty gates;<br/>
+			Behold, the King of glory waits;<br/>
+			The King of kings is drawing near;<br/>
+			The Savior of the world is here!</p>
 			
-			<p>2. He shall raise a mighty Savior;<br/>	
-			Born of David's lineage, He<br/>	
-			Comes in cov'nant love to claim us<br/>	
-			From our sins to set us free.<br/>	
-			Light to those who dwell in darkness<br/>	
-			Life to those from death who flee<br/>	
-			Joy unto the earth, and gladness,<br/>	
-			To your pathways dawning peace!</p>
+			<p>A Helper just, He comes to thee,<br/>
+			His chariot is humility,<br/>
+			His kingly crown is holiness,<br/>
+			His scepter, pity in distress.</p>
 			
-			<p>Refrain<br/>	
-			Every valley be exalted!<br/>	
-			Every mountain be made plane!<br/>	
-			Crooked ways repent and straighten;<br/>	
-			All creation bend in praise!</p>
-			
-			<p>3. Jesus, Lord, and mighty Savior,<br/>	
-			David's Son and yet his King,<br/>	
-			Dawning light of our salvation,<br/>	
-			Of your saving pow'r we sing!<br/>	
-			Stand, Oh lame, and dance ye broken,<br/>	
-			Know the Savior's healing grace;<br/>	
-			Come, Oh deaf and hear him singing;<br/>	
-			Turn, Oh blind, behold his face!</p>
+			<p>O blest the land, the city blest,<br/>
+			Where Christ the Ruler is confessed!<br/>
+			O happy hearts and happy homes<br/>
+			To whom this King in triumph comes!</p>
 		</div>
-		
-		<h3>Interpretive Dance</h3>
 		
 		<h2 id="jesus">The Death &amp; Burial of Jesus</h2>
 		
-		<h3>Gospel Lesson <span class="presenter">Mark 15:21-47</span></h3>
+		<h3>Gospel Lesson <span class="presenter">Mark 15:6-39</span></h3>
 		
 		<p class="note">Before and after the lesson, we say:</p>
 		
@@ -515,22 +517,7 @@
 		<span class="response">Why are you so far from saving me,</span>
 		<span class="response">from the words of my groaning?</span></p>
 		
-		<h3>Choral Hymn: My Song is Love Unknown</h3>
-		
-		<div class="lyrics nosinging">
-			<p>My song is love unknown, my Savior's love to me,<br/>
-			Love to the loveless shown, that they might lovely be.<br/>
-			Oh who am I, that for my sake my Lord should take frail flesh and die?<br/>
-			Sometimes they strew His way, and His sweet praises sing,<br/>
-			Resounding all the day hosannas to their King,<br/>
-			Then "Crucify!" is all their breath and for His death they thirst and cry.<br/>
-			Why, what hath my Lord done to cause this rage and spite?<br/>
-			He made the lame to walk and gave the blind their sight.<br/>
-			What injuries, yet these are why the Lord most high so cruelly dies.<br/>
-			Here might I stay and sing, no story so divine;<br/>
-			Never was love, dear King, never was grief like Thine.<br/>
-			This is my friend, in whose sweet praise I all my days will gladly spend.</p>
-		</div>
+		<h3>Choral Response: He Never Said a Mumbalin' Word</h3>
 		
 		<h3>Homily</h3>
 		
@@ -539,63 +526,71 @@
 		<p>Let us pray.</p>
 		
 		<div class="prayer">
-			<p class="response">Almighty God, Creator of heaven and earth: Grant that, as the crucified body of your dear Son was laid in the tomb and rested on this night, so may we await with him the coming of the third day, and rise with him to newness of life; who lives and reigns with you and the Holy Spirit, one God, now and forever.  Amen.</p>
+			<p class="response">Almighty God, creator of heaven and earth: Grant that, as the crucified body of your dear Son was laid in the tomb and rested on this night, so may we await with him the coming of the third day, and rise with him to newness of life; who lives and reigns with you and the Holy Spirit, one God, now and forever. Amen.</p>
 		</div>
 		
-		<h3>Song of Reflection: Go to Dark Gethsemane</h3>
+		<h3>Dance</h3>
 		
-		<div class="lyrics nosinging">		
-			<p>Go to dark Gethsemane, ye that feel the tempter's power;<br/>
-			Your Redeemer's conflict see, watch with him one bitter hour;<br/>
-			Turn not from his griefs away, Learn of Jesus Christ to pray.</p>
+		<h3>Song of Reflection: Were You There?</h3>
+		
+		<div class="lyrics">		
+			<p>Were you there when they crucified my Lord?<br/>
+			Were you there when they crucified my Lord?<br/>
+			Sometimes it causes me to tremble, tremble, tremble.<br/>
+			Were you there when they crucified my Lord?</p>
 			
-			<p>Follow to the judgement hall, view the Lord of life arraigned;<br/>
-			O the wormwood and the gall! O the pangs his soul sustained!<br/>
-			Shun not suf'ring shame or loss; Learn of him to bear the Cross.</p>
+			<p>Were you there when they nailed Him to the tree?<br/>
+			Were you there when they nailed Him to the tree?<br/>
+			Sometimes it causes me to tremble, tremble, tremble.<br/>
+			Were you there when they nailed Him to the tree?</p>
 			
-			<p>Calvary's mournful mountain climb; there, adoring at his feet,<br/>
-			Mark that miracle of time, God's own Sacrifice complete;<br/>
-			It is finished, hear him cry; Learn of Jesus Christ to die.</p>
+			<p>Were you there when they laid Him in the tomb?<br/>
+			Were you there when they laid Him in the tomb?<br/>
+			Sometimes it causes me to tremble, tremble, tremble.<br/>
+			Were you there when they laid Him in the tomb?</p>
 		</div>
 		
 		<h3>Reflection in Silence</h3>
 
 		<h2 id="light">The Service of Light</h2>
 				
-		<h3>Processional</h3>
+		<h3>Processional *</h3>
 		
 		<p>The light of Christ!<br/>
 		<span class="response">Thanks be to God!</span></p>
 		
-		<h3>Hymn: What Wondrous Love is This?</h3>
+		<h3>Hymn: O, The Deep, Deep Love *</h3>
 		
 		<div class="lyrics">
-			<p>1.What wondrous love is this, O my soul, O my soul!<br/>
-			What wondrous love is this, O my soul!<br/>
-			What wondrous love is this that caused the Lord of bliss<br/>
-			To bear the dreadful curse for my soul, for my soul,<br/>
-			To bear the dreadful curse for my soul.</p>
+			<p>O the deep, deep love of Jesus, <br/>
+			Vast, unmeasured, boundless, free! <br/>
+			Rolling as a mighty ocean <br/>
+			In its fullness over me! <br/>
+			Underneath me, all around me, <br/>
+			Is the current of  Thy love <br/>
+			Leading onward, leading homeward <br/>
+			To Thy glorious rest above! </p>
 			
-			<p>2.When I was sinking down, sinking down, sinking down,<br/>
-			When I was sinking down, sinking down,<br/>
-			When I was sinking down beneath God's righteous frown,<br/>
-			Christ laid aside His crown for my soul, for my soul,<br/>
-			Christ laid aside His crown for my soul.</p>
+			<p>O the deep, deep love of Jesus, <br/>
+			Spread His praise from shore to shore! <br/>
+			How He loveth, ever loveth, <br/>
+			Changeth never, nevermore! <br/>
+			How He watches o’er His loved ones, <br/>
+			Died to call them all His own; <br/>
+			How for them He intercedeth, <br/>
+			Watcheth o’er them from the throne! </p>
 			
-			<p>3.To God and to the Lamb, I will sing, I will sing;<br/>
-			To God and to the Lamb I will sing.<br/>
-			To God and to the Lamb Who is the great "I Am";<br/>
-			While millions join the theme, I will sing, I will sing;<br/>
-			While millions join the theme, I will sing.</p>
-			
-			<p>4.And when from death I'm free, I'll sing on, I'll sing on;<br/>
-			And when from death I'm free, I'll sing on.<br/>
-			And when from death I'm free, I'll sing and joyful be,<br/>
-			And through eternity I'll sing on, I'll sing on,<br/>
-			And through eternity I'll sing on.</p>
+			<p>O the deep, deep love of Jesus,<br/> 
+			Love of every love the best! <br/>
+			’Tis an ocean vast of blessing, <br/>
+			’Tis a haven sweet of rest! <br/>
+			O the deep, deep love of Jesus, <br/>
+			’Tis a heaven of heavens to me;<br/>
+			And it lifts me up to glory, <br/>
+			For it lifts me up to Thee! </p>
 		</div>
 		
-		<h2 id="resurrection">The Resurrection of Our Lord</h2>
+		<h2 id="resurrection">The Resurrection of Our Lord *</h2>
 		
 		<h3>Gospel Lesson <span class="presenter">Luke 24:1-12</span></h3>
 		
@@ -642,15 +637,17 @@
 			<span class="response">Amen.</span></p>
 		</div>
 		
-		<h3>The Easter Acclamation</h3>
+		<h3>Easter Acclamation *</h3>
 		
 		<p>Alleluia! Alleluia! Christ is risen!<br/>		
 		<span class="response">The Lord is risen indeed!  Alleluia! Alleluia!</span></p>
 		
+		<h3>Hymns of Celebration *</h3>
+		
 				<h3>Hymn: Come Christians Join to Sing</h3>
 		
 		<div class="lyrics">	
-			<p>1. Come, Christians, join to sing <br/>
+			<p>Come, Christians, join to sing <br/>
 			Alleluia, Amen! <br/>
 			Loud praise to Christ our King; <br/>
 			Alleluia, Amen!<br/>
@@ -659,7 +656,7 @@
 			Praise is His gracious choice. <br/>
 			Alleluia, Amen! </p>
 			
-			<p>2. Come, fix your eyes on Christ;<br/>
+			<p>Come, fix your eyes on Christ;<br/>
 			Alleluia, Amen! <br/>
 			He's vanquished Death with Life;<br/>
 			Alleluia, Amen! <br/>
@@ -668,7 +665,7 @@
 			Join now the loud refrain:<br/>
 			Alleluia, Amen!</p>
 			
-			<p>3. Lift high the risen Lord, <br/>
+			<p>Lift high the risen Lord, <br/>
 			Alleluia, Amen! <br/>
 			Death shall have pow'r no more;<br/>
 			Alleluia, Amen! <br/>
@@ -678,46 +675,42 @@
 			Alleluia, Amen! </p>
 		</div>
 		
-		<h3>Hymn: And Can it Be</h3>
+		<h3>Hymn: Joy to the World</h3>
 		
 		<div class="lyrics">
-			<p>1. And can it be that I should gain<br/>
-			An interest in the Savior's blood?<br/>
-			Died He for me, who caused His pain—<br/>
-			For me, who Him to death pursued?<br/>
-			Amazing love! How can  it    be,<br/>
-			That Thou, my God, shouldst die for me?</p>
+			<p>Joy to the world, the Lord is come!<br/>
+			Let earth receive her King;<br/>
+			Let every heart prepare Him room,<br/>
+			And Heaven and nature sing,<br/>
+			And Heaven and nature sing,<br/>
+			And Heaven, and Heaven, and nature sing.</p>
 			
-			<p>Refrain:<br/>
-			Amazing love! How can it be,<br/>
-			That Thou, my God, shouldst die for me?</p>
+			<p>Joy to the earth, the Savior reigns!<br/>
+			Let men their songs employ;<br/>
+			While fields and floods, rocks, hills and plains<br/>
+			Repeat the sounding joy,<br/>
+			Repeat the sounding joy,<br/>
+			Repeat, repeat, the sounding joy.</p>
 			
-			<p>2. He left His Father's throne above<br/>
-			So free, so infinite His grace—<br/>
-			Emptied Himself of all but love,<br/>
-			And bled for Adam's helpless race:<br/>
-			'Tis mercy all, immense and free,<br/>
-			For O my God, it found out me!</p>
+			<p>No more let sins and sorrows grow,<br/>
+			Nor thorns infest the ground;<br/>
+			He comes to make His blessings flow<br/>
+			Far as the curse is found,<br/>
+			Far as the curse is found,<br/>
+			Far as, far as, the curse is found.</p>
 			
-			<p>3. Long my imprisoned spirit lay,<br/>
-			Fast bound in sin and nature's night;<br/>
-			Thine eye diffused a quickening ray—<br/>
-			I woke, the dungeon flamed with light;<br/>
-			My chains fell off, my heart was free,<br/>
-			I rose, went forth, and followed Thee.</p>
-			
-			<p>4. No condemnation now I dread;<br/>
-			Jesus, and all in Him, is mine;<br/>
-			Alive in Him, my living Head,<br/>
-			And clothed in righteousness divine,<br/>
-			Bold I approach th'eternal throne,<br/>
-			And claim the crown, through Christ my own.</p>
+			<p>He rules the world with truth and grace,<br/>
+			And makes the nations prove<br/>
+			The glories of His righteousness,<br/>
+			And wonders of His love,<br/>
+			And wonders of His love,<br/>
+			And wonders, wonders, of His love.</p>
 		</div>
 		
 		<h3>Hymn: Praise the Savior Now and Ever</h3>
 		
 		<div class="lyrics">
-			<p>1. Praise the Savior now and ever; <br/>
+			<p>Praise the Savior now and ever; <br/>
 			Praise Him, all beneath the skies; <br/>
 			Prostrate lying, suff'ring, dying <br/>
 			On the cross, a sacrifice.<br/>
@@ -726,7 +719,7 @@
 			Praise the Savior now and ever; <br/>
 			Praise Him, all beneath the skies!</p>
 			
-			<p>2. Man's work faileth, Christ's availeth; <br/>
+			<p>Man's work faileth, Christ's availeth; <br/>
 			He is all our righteousness;<br/>
 			He, our Savior, has forever<br/>
 			Set us free from dire distress.<br/>
@@ -736,7 +729,7 @@
 			He is all our righteousness.<br/>
 			Sin's bonds severed, we're delivered,</p>
 			
-			<p>3. Christ has bruised the serpent's head; <br/>
+			<p>Christ has bruised the serpent's head; <br/>
 			Death no longer is the stronger,<br/>
 			Hell itself is captive led.<br/>
 			Christ has risen from death's prison, <br/>
@@ -744,7 +737,7 @@
 			Sin's bonds severed, we're delivered, <br/>
 			Christ has bruised the serpent's head!</p>
 			
-			<p>4. For His favor, praise forever,<br/>
+			<p>For His favor, praise forever,<br/>
 			Unto God the Father sing;<br/>
 			Praise the Savior, praise Him ever,<br/>
 			Son of God, our Lord and King.<br/>
@@ -757,35 +750,35 @@
 		<h3>Hymn: Worship Christ the Risen King</h3>
 		
 		<div class="lyrics">
-			<p>1. Rise, O church, and lift your voices,<br/>
+			<p>Rise, O church, and lift your voices,<br/>
 			Christ has conquered death and hell.<br/>
 			Sing as all the earth rejoices;<br/>
 			Resurrection anthems swell.<br/>
 			Come and worship, come and worship,<br/>
 			Worship Christ, the Risen King!</p>
 			
-			<p>2. See the tomb where death had laid Him,<br/>
+			<p>See the tomb where death had laid Him,<br/>
 			Empty now, its mouth declares;<br/>
 			&#8220;Death and I could not contain Him,<br/>
 			For the Throne of Life He shares.&#8221;<br/>
 			Come and worship, come and worship,<br/>
 			Worship Christ, the Risen King!</p>
 			
-			<p>3. Hear the earth protest and tremble,<br/>
+			<p>Hear the earth protest and tremble,<br/>
 			See the stone removed with pow&#8217;r;<br/>
 			All hell&#8217;s minions may assemble<br/>
 			But cannot withstand His hour.<br/>
 			He has conquered, He has conquered,<br/>
 			Christ the Lord, the Risen King!</p>
 			
-			<p>4. Doubt may lift its head to murmur,<br/>
+			<p>Doubt may lift its head to murmur,<br/>
 			Scoffers mock and sinners jeer;<br/>
 			But the truth proclaims a wonder<br/>
 			Thoughtful hearts receive with cheer.<br/>
 			He is risen, He is risen,<br/>
 			Now receive the Risen King!</p>
 			
-			<p>5. We acclaim Your life, O Jesus,<br/>
+			<p>We acclaim Your life, O Jesus,<br/>
 			Now we sing Your victory;<br/>
 			Sin or hell may seek to seize us<br/>
 			But Your conquest keeps us free.<br/>
@@ -793,7 +786,7 @@
 			Worship Christ, the Risen King!</p>
 		</div>
 		
-		<h2 id="affirmation">The Affirmation of Our Faith</h2>
+		<h2 id="affirmation">The Affirmation of Faith *</h2>
 		
 		<p>In baptism, we are buried with Christ in his death and raised with him to newness of life. We are set free in the Spirit to put on the new self, created after the likeness of God in true righteousness and holiness. As God's children who he has raised to life, I ask you to renew the promises and vows of your baptism, by which we once renounced Satan and all his works, and promised to serve Christ faithfully in his body, the Church.</p>
 		
@@ -836,7 +829,7 @@
 		
 		<h2 id="table">The Lord's Table</h2>
 		
-		<h3>Passing the Peace</h3>
+		<h3>Passing the Peace *</h3>
 		
 		<p>The peace of the Lord be always with you!
 		<span class="response">And also with you!</span>
@@ -853,7 +846,7 @@
 		
 		<h3>Invitation to the Table</h3>
 		
-		<h3>Great Thanksgiving</h3>
+		<h3>Great Thanksgiving *</h3>
 		
 		<p>Lord be with you!<br/>
 		<span class="response">And also with you!</span>
@@ -862,13 +855,7 @@
 		Let us give thanks to the Lord our God!<br/>
 		<span class="response">It is right to give him thanks and praise!</span></p>
 		
-		<p>It is right, and a good and joyful thing, always and everywhere to give thanks to you Father Almighty, Creator of heaven and earth. Worthy are you, our Lord and God, to receive glory and honor and power!</p>
-		
-		<p>But chiefly we praise you for the glorious resurrection of your Son Jesus Christ our Lord; for he is the true Paschal Lamb, who was sacrificed for us, and has taken away the sin of the world.</p>
-		
-		<p>By his death he has destroyed death, and by his rising to life again He has won for us everlasting life. Therefore, we praise you, joining our voices with angels and archangels and with all the company of heaven who forever sing this hymn to proclaim the glory of your name:</p>
-		
-		<h3>Sanctus</h3>
+		<h3>Sanctus *</h3>
 		
 		<div class="lyrics">
 			<p>Holy, holy, holy Lord<br/>
@@ -879,9 +866,8 @@
 			<p>Hosanna, Hosanna<br/>
 			In the highest<br/>
 			Hosanna, Hosanna<br/>
-			In the highest</p>
-			
-			<p>Blessed is He who comes <br/>
+			In the highest<br/>
+			Blessed is He who comes <br/>
 			In the name of the Lord</p>
 			
 			<p>Hosanna, Hosanna<br/>
@@ -892,48 +878,30 @@
 		
 		<h3>Prayer of Consecration</h3>
 		
-		<p>All glory be to you, Almighty God: Father, Son, and Holy Spirit; for in your infinite love, you made us for yourself, crowning us with glory and honor to rule over the works of your hands. Yet we did not give thanks to you or honor you as God but turned away. Falling into sin, we, and all your works, became subject to misery and death.</p>
-		
-		<p>But you, in your tender mercy, sent Jesus Christ, your only and eternal Son, to share our human nature, to live and die as one of us, to reconcile us to you, the God and Father of all.</p>
-		
-		<p>He stretched out his arms upon the cross, and offered himself there, in obedience to your will, a perfect sacrifice for the whole world, once and for all. He died in our place, making a full atonement for our sins. And, by your mighty power, you raised him from death and crowned him with great honor at your right hand on high.</p>
-		
-		<p>Hear us, merciful Father, and by the power of your Holy Spirit, grant that we who eat this bread and drink this wine, in accordance with our Lord's command, in remembrance of his death and passion, may be partakers of his most blessed body and blood.</p>
-		
-		<p>On the night he was betrayed, our Lord Jesus Christ took bread; and when he had given thanks to you, he broke it, and gave it to his disciples, saying, "Take, eat: This is my Body which is given for you. Do this in remembrance of me."</p>
-		
-		<p>In the same way, after supper he took the cup; and when he had given thanks, he gave it to them, saying, "Drink this, all of you: This is my Blood of the New Covenant, which is poured out for you and for many for the forgiveness of sins.  Do this, whenever you drink it, in remembrance of me."</p>
-		
 		<p>Therefore, we proclaim the mystery of faith:<br/>
 		<span class="response">Christ has died!<br/>
 		Christ is risen!<br/>
 		Christ will come again!</span></p>
-		
-		<p>We celebrate this covenant with joy, and await the glorious appearing of our Savior, Jesus Christ, who will unite all things in heaven and on earth – raising us from death and making all things new. By him, and with him, and in him, in the unity of the Holy Spirit all honor and glory is yours, Almighty Father, now and forever.  Amen.</p>
-		
-		<p>The gifts of God for the people of God.<br/>
-		Take them in remembrance that Christ died for you,<br/>
-		and feed on him in your hearts by faith with thanksgiving.</p>
-		
+				
 		<h3>Distribution of the Meal</h3>
 		
 		<h3>Hymn: What the Lord Has Done in Me</h3>
 		
 		<div class="lyrics">
-			<p>1. Let the weak say, &#8220;I am strong.&#8221;<br/>
+			<p>Let the weak say, &#8220;I am strong.&#8221;<br/>
 			Let the poor say, &#8220;I am rich.&#8221;<br/>
 			Let the blind say, &#8220;I can see;<br/>
 			It&#8217;s what the Lord has done in me.&#8221;</p>
 			
-			<p>Hosanna, hosanna to the Lamb that was slain.<br/>
-			Hosanna, hosanna, Jesus died and rose a-gain.</p>
+			<p><em>Hosanna, hosanna to the Lamb that was slain.<br/>
+			Hosanna, hosanna, Jesus died and rose a-gain.</em></p>
 			
-			<p>2. Into the river I will wade.<br/>
+			<p>Into the river I will wade.<br/>
 			There my sins are washed away.<br/>
 			From the heavens mercy streams<br/>
 			Of the Saviour&#8217;s love for me.</p>
 			
-			<p>3. I will rise from waters deep<br/>
+			<p>I will rise from waters deep<br/>
 			Into the saving arms of God.<br/>
 			I will sing salvation songs;<br/>
 			Jesus Christ has set me free.</p>
@@ -942,27 +910,27 @@
 		<h3>Hymn: Amazing Grace</h3>
 		
 		<div class="lyrics">
-			<p>1. Amazing grace! How sweet the sound <br/>
+			<p>Amazing grace! How sweet the sound <br/>
 			That saved a wretch like me! <br/>
 			I once was lost, but now am found; <br/>
 			Was blind, but now I see. </p>
 			
-			<p>2. 'Twas grace that taught my heart to fear, <br/>
+			<p>'Twas grace that taught my heart to fear, <br/>
 			And grace my fears relieved; <br/>
 			How precious did that grace appear <br/>
 			The hour I first believed. </p>
 			
-			<p>3. Through many dangers, toils, and snares <br/>
+			<p>Through many dangers, toils, and snares <br/>
 			I have already come; <br/>
 			'Tis grace that brought me safe thus far, <br/>
 			And grace will lead me home. </p>
 			
-			<p>4. And when this flesh and heart shall fail, <br/>
+			<p>And when this flesh and heart shall fail, <br/>
 			And mortal life shall cease, <br/>
 			I shall possess, within the veil, <br/>
 			A life of joy and peace. </p>
 			
-			<p>5. When we've been there ten thousand years, <br/>
+			<p>When we've been there ten thousand years, <br/>
 			Bright shining as the sun, <br/>
 			We've no less days to sing God's praise <br/>
 			Than when we first begun.</p>
@@ -971,7 +939,7 @@
 		<h3>Hymn: In Christ Alone</h3>
 		
 		<div class="lyrics">
-			<p>1. In Christ alone my hope is found;<br/>
+			<p>In Christ alone my hope is found;<br/>
 			He is my light, my strength, my song;<br/>
 			This cornerstone, this solid ground,<br/>
 			Firm through the fiercest drought and storm.<br/>
@@ -980,7 +948,7 @@
 			My comforter, my all in all—<br/>
 			Here in the love of Christ I stand.</p>
 			
-			<p>2. In Christ alone, Who took on flesh,<br/>
+			<p>In Christ alone, Who took on flesh,<br/>
 			Fullness of God in helpless babe!<br/>
 			This gift of love and righteousness,<br/>
 			Scorned by the ones He came to save.<br/>
@@ -989,7 +957,7 @@
 			For ev&#8217;ry sin on Him was laid—<br/>
 			Here in the death of Christ I live.</p>
 			
-			<p>3. There in the ground His body lay,<br/>
+			<p>There in the ground His body lay,<br/>
 			Light of the world by darkness slain;<br/>
 			Then bursting forth in glorious day,<br/>
 			Up from the grave He rose again!<br/>
@@ -998,7 +966,7 @@
 			For I am His and He is mine—<br/>
 			Bought with the precious blood of Christ.</p>
 			
-			<p>4. No guilt in life, no fear in death—<br/>
+			<p>No guilt in life, no fear in death—<br/>
 			This is the pow&#8217;r of Christ in me;<br/>
 			From life&#8217;s first cry to final breath,<br/>
 			Jesus commands my destiny.<br/>
@@ -1008,10 +976,42 @@
 			Here in the pow&#8217;r of Christ I&#8217;ll stand.</p>
 		</div>
 		
+		<h3>Hymn: All Creatures of Our God and King</h3>
+		
+		<div class="lyrics">
+			<p>All creatures of our God and King<br/>
+			Lift up your voice and with us sing,<br/>
+			Alleluia! Alleluia!<br/>
+			Thou burning sun with golden beam,<br/>
+			Thou silver moon with softer gleam!</p>
+
+			<p><em>O praise Him! O praise Him!<br/>
+			Alleluia! Alleluia! Alleluia!</em></p>
+			
+			<p>Thou rushing wind that art so strong<br/>
+			Ye clouds that sail in Heaven along,<br/>
+			O praise Him! Alleluia!<br/>
+			Thou rising moon, in praise rejoice,<br/>
+			Ye lights of evening, ﬁnd a voice!</p>
+			
+			<p>Thou ﬂowing water, pure and clear,<br/>
+			Make music for thy Lord to hear,<br/>
+			O praise Him! Alleluia!<br/>
+			Thou ﬁre so masterful and bright,<br/>
+			That givest man both warmth and light.</p>
+			
+			<p>Let all things their Creator bless,<br/>
+			And worship Him in humbleness,<br/>
+			O praise Him! Alleluia!<br/>
+			Praise, praise the Father, praise the Son,<br/>
+			And praise the Spirit, Three in One!</p>
+			
+		</div>
+		
 		<h3>Hymn: Crown Him with Many Crowns</h3>
 		
 		<div class="lyrics">
-			<p>1. Crown Him with many crowns,<br/>
+			<p>Crown Him with many crowns,<br/>
 			 The Lamb upon His throne<br/>
 			Hark how the heavenly anthem drowns<br/>
 			All music but its own<br/>
@@ -1020,7 +1020,7 @@
 			And hail Him as Thy matchless King<br/>
 			Through all eternity.</p>
 			
-			<p>2. Crown Him the Lord of love, <br/>
+			<p>Crown Him the Lord of love, <br/>
 			Behold His hands and side<br/>
 			Rich wounds yet visible above<br/>
 			In beauty glorified<br/>
@@ -1029,7 +1029,7 @@
 			But downward bends his burning eye<br/>
 			At mysteries so bright.</p>
 			
-			<p>3. Crown Him the Lord of years, <br/>
+			<p>Crown Him the Lord of years, <br/>
 			The Potentate of time,<br/>
 			Creator of the rolling spheres, <br/>
 			Ineffably sublime.  <br/>
@@ -1038,7 +1038,7 @@
 			Thy praise shall never, never fail <br/>
 			Throughout eternity.</p>
 			
-			<p>4. Crown Him the Lord of life<br/>
+			<p>Crown Him the Lord of life<br/>
 			Who triumphed o'er the grave<br/>
 			Who rose victorious in the strife<br/>
 			For those He came to save<br/>
@@ -1048,7 +1048,7 @@
 			And lives that death may die</p>
 		</div>
 		
-		<h3>Prayer of Thanksgiving</h3>
+		<h3>Prayer of Thanksgiving *</h3>
 		
 		<div class="lyrics">
 			<p>Mighty God we thank and praise you<br/>
@@ -1071,11 +1071,10 @@
 			Father,  Son,  and Holy Spirit,<br/>
 			Pow'r and glory to your name!</p>
 			
-			<p>Amen!  Amen!    <br/>
-			Amen!  Amen!  Amen!</p>
+			<p>Amen!  Amen!</p>
 		</div>
 		
-		<h3>Benediction</h3>
+		<h3>Benediction *</h3>
 		
 			<p>All our problems,<br/>
 		<span class="response">we send to the cross of Christ!</span>
@@ -1091,7 +1090,7 @@
 		the Father, the Son, and the Holy Spirit,<br/>
 		be among you and dwell with you always. Amen.</p>
 		
-		<h3>Dismissal</h3>
+		<h3>Dismissal *</h3>
 		
 		<p>Alleluia! Alleluia! Let us go forth into the world<br/>
 		rejoicing in the power of the risen Christ!<br/>		
