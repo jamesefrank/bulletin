@@ -687,7 +687,7 @@ Lift up your hearts!
 Let us give thanks to the Lord our God!
 **It is right to give him thanks and praise!**
 
-## SANCTUS
+## The Sanctus
 
 Holy, holy, holy Lord
 God of power and might
