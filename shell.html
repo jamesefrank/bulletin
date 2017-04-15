@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Easter Vigil</title>
+
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="cache-control" content="public">
+		<meta name="HandheldFriendly" content="True" />
+		<meta name="MobileOptimized" content="320" />
+		<meta name="viewport" content="width=device-width, initial scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+
+		<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css">
+		<style type="text/css">
+			body {color: #fff; background: #000; font-size: 1.2em; padding: 4%;}
+			a {color: #FFD8A2;}
+			h1, h2 {color: #fff; font-family: "GreatVibesRegular", serif;}
+			h1 {font-size: 4em; line-height: .8em;}
+			h1 span {font-size: .4em; display: block;}
+			h1 strong {line-height: 1em;}
+			h2 {font-size: 2em;}
+			h3, h4, h5, h6 {color: #FFD8A2; font-family: 'OpenSansCondensedLight', sans-serif; font-weight: normal; text-transform: uppercase; letter-spacing: .1em;}
+			p {clear: both; margin-bottom: 10px; font-family: "Georgia", serif; line-height: 1.6em; color: #ccc;}
+			.presenter {font-style: italic; float: right; display: inline-block;}
+			.note {font-style: italic; font-size: smaller; margin-top:-23px;}
+			.italic {font-style: italic;}
+			.response {font-weight: bold; color: #fff;}
+			span.response {
+				display: block; padding-left: 15px;
+			}
+			.lyrics {font-weight: normal; color: #fff;}
+			.lyrics p {color: #fff;}
+			.lyric {padding-left: 10px; text-indent: -10px;}
+			.lyrics.nosinging p {color: #ccc;}
+			.prayer {margin-bottom: 10px;}
+			#toplink {position: fixed; left: 0; top: 0; right: 0; background-color: #FFD8A2; text-align: center; padding: 2px 0 0px 0; display: none; color: black; text-decoration: none; font-family: "OpenSansCondensedBold", sans-serif;}
+			#cover {background-image: url("cover.jpg"); height: 300px; width: 100%; opacity: 0.7; position: absolute; top: 0; z-index: -1; left:0;}
+			#vigil {margin-top: 22px;}
+		</style>
+	</head>
+	<body onload="window.top.scrollTo(0, 1);">
+
+		<h1 id="vigil"><span>The </span><strong>Easter Vigil</strong></h1>
+
+		<div id="cover"></div>
+
+		<h2 id="contents">Contents</h2>
+		<p>
+			INSERT_TOC
+			<br/>
+		</p>
+
+		<div id='start'></div>
+		INSERT_MAIN_CONTENT
+
+	<script
+  src="//code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(window).scroll(function(e){
+			var $el = $('#toplink');
+			var distanceToShow = $("#start").offset().top;
+			if ($(this).scrollTop() > distanceToShow){
+			  $el.css({'display': 'block'});
+			} else { $el.css({'display': 'none'}); }
+		  });
+	</script>
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12567939-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+	</body>
+</html>
