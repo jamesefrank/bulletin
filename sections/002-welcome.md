@@ -1,0 +1,6 @@
+```
+{
+  "type": "lesson",
+  "title": "WELCOME"
+}
+```
