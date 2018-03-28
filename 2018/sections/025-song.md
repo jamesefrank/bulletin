@@ -1,42 +1,39 @@
 ```
 {
   "type": "song",
-  "title": "SONG*",
-  "subtitle": "Dawning Light of Our Salvation"
+  "title": "HYMN*",
+  "subtitle": "Joy to the World "
 }
 ```
 
-Long in darkness Israel wandered;
-Long in mortal shadows, we
-Walked in bondage and self-pity,
-Trod in paths of sin and grief.
-In the prophets’ words He told us,
-Long the God of Israel spoke;
-He alone in strength would save us
-From the hands of all our foes.
+Joy to the world! The Lord is come:
+Let earth receive her King;
+Let ev’ry heart prepare Him room,
+and heav’n and nature sing,
+And heav’n and nature sing,
+and heav’n and heav’n and nature sing.
 
-He shall raise a mighty Savior;
-Born of David’s lineage, He
-Comes in cov’nant love to claim us
-From our sins to set us free.
+Joy to the earth! The Savior reigns;
+Let men their songs employ;
+While fields and floods,
+rocks, hills, and plains,
+repeat the sounding joy,
+Repeat the sounding joy,
+repeat, repeat the sounding joy.
 
-Light to those who dwell in darkness
-Life to those from death who flee
-Joy unto the earth, and gladness,
-To your pathways dawning peace!
+No more let sins and sorrows grow,
+nor thorns infest the ground;
+He comes to make his blessings flow
+far as the curse is found,
+Far as the curse is found,
+far as, far as the curse is found.
 
-```
-Every valley be exalted!
-Every mountain be made plane!
-Crooked ways repent and straighten;
-All creation bend in praise!
-```
+He rules the world with truth and grace
+And makes the nations prove
+The glories of His righteousness
+and wonders of His love,
+And wonders of His love,
+and wonders, wonders of his love.
 
-Jesus, Lord, and mighty Savior,
-David’s Son and yet his King,
-Dawning light of our salvation,
-Of your saving pow’r we sing!
-Stand, Oh lame, and dance ye broken,
-Know the Savior’s healing grace;
-Come, Oh deaf and hear him singing;
-Turn, Oh blind, behold his face!
+Of His love
+Of His love

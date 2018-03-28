@@ -2,27 +2,34 @@
 {
   "type": "song",
   "title": "HYMN*",
-  "subtitle": "When I Survey the Wondrous Cross"
+  "subtitle": "O Sacred Head Now Wounded"
 }
 ```
 
-When I survey the wondrous cross
-On which the Prince of glory died,
-My richest gain I count but loss,
-And pour contempt on all my pride.
+O sacred head, now wounded,
+with grief and shame weighed down;
+Now scornfully surrounded
+with thorns thine only crown.
+O sacred head, what glory,
+what bliss till now was Thine!
+Yes, though despised and gory,
+I joy to call Thee mine.
 
-Forbid it, Lord, that I should boast,
-Save in the death of Christ my God!
-All the vain things that charm me most,
-I sacrifice them to His blood.
+What Thou, my Lord hast suffered,
+was all for sinner’s gain;
+Mine, mine was the transgression,
+but Thine the deadly pain.
+Lo, here I fall, my Savior,
+’tis I deserve Thy place;
+Look on me with Thy favor,
+vouchsafe me to Thy grace.
 
-See from His head, His hands, His feet,
-Sorrow and love flow mingled down!
-Did e’er such love and sorrow meet,
-Or thorns compose so rich a crown?
-
-Were the whole realm of nature mine,
-That were a present far too small;
-Love so amazing, so divine,
-Demands my soul, my life, my all.
+What language shall I borrow,
+to thank Thee dearest friend,
+For this Thy dying sorry,
+Thy pity without end?
+O make me Thine forever;
+and should I fainting be,
+Lord let me never, never
+outlive my love to Thee.
 

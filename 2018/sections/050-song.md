@@ -2,45 +2,30 @@
 {
   "type": "song",
   "title": "HYMN",
-  "subtitle": "In Christ Alone"
+  "subtitle": "Justice Will Roll Down"
 }
 ```
 
-In Christ alone my hope is found;
-He is my light, my strength, my song;
-This cornerstone, this solid ground,
-Firm through the fiercest
-drought and storm.
-What heights of love,
-what depths of peace,
-When fears are stilled,
-when strivings cease!
-My comforter, my all in all—
-Here in the love of Christ I stand
+Oh my love you have grown so cold
+To the world outside the house next door
+She who has been loved so much
+ has so much to give
+Mercy is the fragrance of the broken
 
-In Christ alone, Who took on flesh,
-Fullness of God in helpless babe!
-This gift of love and righteousness,
-Scorned by the ones He came to save.
-Till on that cross as Jesus died,
-The wrath of God was satisfied;
-For ev’ry sin on Him was laid—
-Here in the death of Christ I live.
+```
+Justice will roll down
+Justice will roll down
+From high upon these mountains with a mighty river’s sound
+It will roll down
+It will roll down
+```
 
-There in the ground His body lay,
-Light of the world by darkness slain;
-Then bursting forth in glorious day,
-Up from the grave He rose again!
-And as He stands in victory,
-Sin’s curse has lost its grip on me;
-For I am His and He is mine—
-Bought with the precious blood of Christ.
+Oh my child I will be your light
+In your secret pain in the dark of night
+No enemy, no conqueror could steal a life from me
+I am your salvation and your victory
 
-No guilt in life, no fear in death—
-This is the pow’r of Christ in me;
-From life’s first cry to final breath,
-Jesus commands my destiny.
-No pow’r of hell, no scheme of man,
-Can ever pluck me from His hand;
-Till He returns or calls me home—
-Here in the pow’r of Christ I’ll stand.
+Soon, oh soon, when the trumpet sounds
+Every knee shall bend, every heart shall bow
+I have made a new world where the servant is a king
+Oppression will be over when the slave’s set free

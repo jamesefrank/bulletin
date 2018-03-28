@@ -6,7 +6,13 @@ function readAndParse(file, idx) {
   var content = fs.readFileSync(file).toString();
   var startJSON = content.indexOf('```');
   var endJSON = content.indexOf('```', startJSON+1);
-  var json = JSON.parse(content.slice(startJSON+4, endJSON).trim());
+  try {
+    var json = JSON.parse(content.slice(startJSON+4, endJSON).trim());
+  }
+  catch(err) {
+    console.log(file);
+    throw err;
+  }
   var body = content.slice(endJSON+4).trim();
   if (json.title) json.title = toTitleCase(json.title);
   json.file = file;

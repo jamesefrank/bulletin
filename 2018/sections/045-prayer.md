@@ -1,5 +1,6 @@
 ```
 {
+  "title": "DOXOLOGY",
   "type": "prayer"
 }
 ```

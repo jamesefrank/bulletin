@@ -5,6 +5,7 @@
 }
 ```
 
+Let us pray.
 God the Father,
 
 have mercy upon us.

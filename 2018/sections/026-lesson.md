@@ -3,15 +3,11 @@
   "type": "lesson",
   "verse": "Mark 15:21-47",
   "title": "THE DEATH AND BURIAL OF JESUS",
-  "response":  "Psalm 22:1",
+  "response":  "Psalm 136:1",
   "index": true
 }
 ```
 
-My God, my God, why have you
-forsaken me?
+Give thanks to the Lord, for he is good.
 
-Why are you so far from saving
-me, from the words of
-my groaning?
-
+His love endures forever.

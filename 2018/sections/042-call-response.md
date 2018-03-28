@@ -1,7 +1,7 @@
 ```
 {
   "type": "call-response",
-  "title":  "THE AFFIRMATION OF OUR FAITH",
+  "title":  "THE AFFIRMATION OF OUR FAITH*",
   "index": true
 }
 ```

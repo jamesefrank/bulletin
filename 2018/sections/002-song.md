@@ -2,10 +2,16 @@
 {
   "type": "song",
   "title": "CHORAL INTROIT",
-  "subtitle": "Abendlied (\"Evening Song\")"
+  "subtitle": "O Nata Lux"
 }
 ```
 
-Bide with us,
-for evening shadows darken,
-and the day will soon be over.
+O Light born of Light,
+Jesus, redeemer of the world,
+with kindness deign to receive
+the praise and prayer of suppliants.
+
+You who once deigned to be clothed in fesh
+for the sake of the lost,
+grant us to be made members
+of your blessed body.

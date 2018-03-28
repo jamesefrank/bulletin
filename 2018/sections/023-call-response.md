@@ -7,16 +7,18 @@
 
 Let us pray.
 
-Father in heaven, who at the
-baptism of Jesus in the River
-Jordan proclaimed him your
-beloved Son and anointed him
-with the Holy Spirit: Grant that
-all who are baptized into his
-Name may keep the covenant
-they have made, and boldly
-confess him as Lord and
-Savior; who with you and the
-Holy Spirit lives and reigns,
-one God, in glory everlasting.
-Amen.
+O God of unchangeable power and
+eternal light: Look favorably on
+your whole Church, that wonderful
+and sacred mystery; by the effectual
+working of your providence, carry
+out in tranquility the plan of
+salvation; let the whole world see
+and know that things which were
+cast down are being raised up, and
+things which had grown old are
+being made new, and that all things
+are being brought to their
+perfection by him through whom
+all things were made, your Son
+Jesus Christ our Lord. Amen.

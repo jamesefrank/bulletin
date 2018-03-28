@@ -2,34 +2,27 @@
 {
   "type": "song",
   "title": "HYMN",
-  "subtitle": "It is Finished"
+  "subtitle": "Holy God, We Praise Thy Name"
 }
 ```
 
-Hark, the voice of love and mercy,
-Sounds aloud from Calvary!
-See, it rends the rocks asunder,
-Shakes the earth and veils the sky!
-“It is finished, It is finished,”
-Hear the dying Savior cry.
+Thou art King of glory, Christ,
+Virgin’s son, God everlasting,
+For us sinners sacrificed,
+Then from death, the Victor rising.
+Death crushed, now the faithful sight
+Heaven’s doors flung open wide!
 
-“It is finished,” O what pleasure,
-Do these charming words afford.
-Heavenly blessings, without measure,
-Flow to us from Christ the Lord.
-“It is finished, it is finished,”
-Saints the dying words record.
+Now thou art on heaven’s throne
+At the Father’s right hand seated
+Hear us pray Thy kingdom come,
+Be on earth Thy will completed.
+’Til that day of joy and dread,
+where are judged the quick and dead.
 
-Finished all the types and shadows,
-Of the ceremonial law;
-Finished all that God had promised;
-Death and hell no more shall awe.
-“It is finished, it is finished,”
-Saints from hence your comfort draw
-
-Tune your harps anew, ye seraphs;
-Join to sing the pleasing theme;
-Saints on earth and all in heaven,
-Join to praise Immanuel’s name.
-Hallelujah! Hallelujah!
-Glory to the bleeding lamb!
+Look upon your servants, God,
+Show thy mercy, give thy blessing,
+We, redeemed by thy dear blood,
+Join the Saints thy Love confessing
+With them numbered may we be,
+Now and through eternity
