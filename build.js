@@ -1,12 +1,14 @@
 var fs = require('fs');
 var path = require('path');
 
+var year = process.argv[2];
+
 var checkValid = require('./to-html/check-valid');
 var readAndParse = require('./to-html/read-and-parse');
 
-var sectionsDir = path.join(__dirname, 'sections');
+var sectionsDir = path.join(__dirname, year, 'sections');
 
-var files = fs.readdirSync('./sections').map(f => path.join(sectionsDir, f)).map(readAndParse);
+var files = fs.readdirSync(sectionsDir).map(f => path.join(sectionsDir, f)).map(readAndParse);
 
 var index = files.filter(f => f.index).map(toIndex).join('\n');
 
