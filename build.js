@@ -14,7 +14,7 @@ var index = files.filter(f => f.index).map(toIndex).join('\n');
 
 var html = files.map(toHtml).join('\n<br/>\n');
 
-var output = fs.readFileSync('./shell.html').toString();
+var output = fs.readFileSync(`./${year}/shell.html`).toString();
 
 output = output.replace('INSERT_TOC', index);
 output = output.replace('INSERT_MAIN_CONTENT', html);
