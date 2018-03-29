@@ -1,0 +1,22 @@
+```
+{
+  "type": "song",
+  "title": "CHORAL HYMN",
+  "subtitle": "Iudemea"
+}
+```
+
+And am I born to die?
+To lay this body down
+And must my trembling spirit fly
+Into a world unknown?
+
+A land of deepest shade
+Unpierced by human thought
+The dreary regions of the dead
+Where all things are forgot
+
+Soon as from earth I go
+What will become of me?
+Eternal happiness or woe
+Must then my portion be.
