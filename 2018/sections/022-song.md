@@ -1,7 +1,7 @@
 ```
 {
   "type": "song",
-  "title": "SONG",
+  "title": "DANCE",
   "subtitle": "Wake Up, O Daughter of Zion"
 }
 ```

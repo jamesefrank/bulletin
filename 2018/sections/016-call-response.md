@@ -120,10 +120,9 @@ the ways of peace and justice.
 
 Hear us, good Lord.
 
-Guard and strengthen your servant
-Donald Trump, our President, that he
-may put his trust in you, and seek your
-honor and glory.
+Guard and strengthen our President,
+that he may put his trust in you,
+and seek your honor and glory.
 
 Hear us, good Lord.
 

@@ -21,7 +21,7 @@ Peace and joy everyday
 for beside life’s crystal river
 God shall wipe all tears away
 
-Tough the clouds may hover over
-Tere’s a bright and golden ray
+Though the clouds may hover over
+There’s a bright and golden ray
 It’s the promise that is in heaven
 God shall wipe all tears away

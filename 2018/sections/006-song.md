@@ -1,7 +1,7 @@
 ```
 {
   "type": "song",
-  "title": "SONG",
+  "title": "DANCE",
   "subtitle": "In the Fields of the Lord"
 }
 ```

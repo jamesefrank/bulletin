@@ -1,7 +1,7 @@
 ```
 {
   "type": "song",
-  "title": "SONG*",
+  "title": "SONG",
   "subtitle": "Now and At the Hour"
 }
 ```
